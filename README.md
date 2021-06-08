@@ -10,8 +10,9 @@ The initial dataset included data on over four thousand crowdfunding campaigns f
 ### Analysis of Outcomes Based on Launch Date
 I created a pivot table based on the entire sheet of data filtering by Parent Category and Month:
 ![Pivot Table](Resources/Launch_Date_Pivot_Table.PNG)
+
 After creating the pivot table, I created a line graph based on the information to display the number canceled, failed, live or successful campaigns based on the month the project launch.
-![Line graph]Resources/Theater_Outcomes_vs_Launch.png
+![Line graph](Resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 To analyze outcomes based on goals, I used the countifs command to create a count of projects based on funding goal and successful vs. failed outcomes.  This is an example of the code I used:
 `=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
