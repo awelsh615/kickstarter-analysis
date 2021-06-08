@@ -11,9 +11,9 @@ The purpose of this project was to answer two questions for a specific subset of
 
 ### Analysis of Outcomes Based on Goals
 
-###Challenges and Difficulties Encountered
+### Challenges and Difficulties Encountered
 
-##Results
+## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 - What can you conclude about the Outcomes based on Goals?
