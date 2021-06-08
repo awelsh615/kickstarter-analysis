@@ -14,9 +14,16 @@ I created a pivot table based on the entire sheet of data filtering by Parent Ca
 After creating the pivot table, I created a line graph based on the information to display the number canceled, failed, live or successful campaigns based on the month the project launch.
 ![Line graph](Resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
-To analyze outcomes based on goals, I used the countifs command to create a count of projects based on funding goal and successful vs. failed outcomes.  This is an example of the code I used:
-`=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
+To analyze outcomes based on goals, I used the countifs command to create a count of projects based on funding goal and successful vs. failed outcomes.  
+I then created a line graph to visualize the percentage of projects that were successful based on their intiail funding goal.
+![Line Graph](Resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
+The biggest challenge for me personally was realizing how little I know about Excel - just enough to be dangerous.  I enjoyed learning about Pivot Tables, and Vlookup - and can see how both will be very useful to me in the future.
+Another big challenge for me was correcting my code in the Outcomes Based on Goals sheet.  Initially I had the following:
+`=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
+I could not figure out why my numbers were off until (embaressingly) I went back to the original data and realized that I was missing all the campaigns that were *equal* to multiples of $5000.  I had to correct my code to:
+`=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`.  
+As a math teacher, it will be a great example of the importance of equals!
 
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
