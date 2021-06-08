@@ -9,7 +9,7 @@ The purpose of this project was analyze kickstarter campaigns for "Louise" to he
 The initial dataset included data on over four thousand crowdfunding campaigns from 2009-2017.  An analysis was done on the campaigns to categorize the data by outcome, country, funding goal, category and many others.  It was determined that several campaigns matched our target campaign of theater projects: plays. I used data filtering in Excel to filter out campaigns that didn't match our target.  
 ### Analysis of Outcomes Based on Launch Date
 I created a pivot table based on the entire sheet of data filtering by Parent Category and Month:
-
+![alt_text](https://github.com/awelsh615/kickstarter-analysis/blob/main/Resources/Launch_Date_Pivot_Talble)
 ### Analysis of Outcomes Based on Goals
 To analyze outcomes based on goals, I used the countifs command to create a count of projects based on funding goal and successful vs. failed outcomes.  This is an example of the code I used:
 `=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
