@@ -19,10 +19,13 @@ I then created a line graph to visualize the percentage of projects that were su
 ![Line Graph](Resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 The biggest challenge for me personally was realizing how little I know about Excel - just enough to be dangerous.  I enjoyed learning about Pivot Tables, and Vlookup - and can see how both will be very useful to me in the future.
-Another big challenge for me was correcting my code in the Outcomes Based on Goals sheet.  Initially I had the following:
+Another big challenge for me was correcting my code in the Outcomes Based on Goals sheet.  
+Initially I had the following:
 `=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
+
 I could not figure out why my numbers were off until (embarrassingly) I went back to the original data and realized that I was missing all the campaigns that were *equal* to multiples of $5000.  I had to correct my code to:
 `=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`.  
+
 As a math teacher, it will be a great example of the importance of equals!
 
 ## Results
