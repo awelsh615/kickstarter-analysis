@@ -26,7 +26,7 @@ Initially I had the following:
 I could not figure out why my numbers were off until (embarrassingly) I went back to the original data and realized that I was missing all the campaigns that were *equal* to multiples of $5000.  I had to correct my code to:
 `=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`.  
 
-As a math teacher, it will be a great example of the importance of equals!
+As a math teacher, it will be a great example of the importance of <u>equals</u>!
 
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
