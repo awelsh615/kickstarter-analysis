@@ -27,11 +27,15 @@ As a math teacher, it will be a great example of the importance of equals!
 
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+The most successful month to kickoff a Play crowdfunding campaign is May. September and November have the fewest failed campaigns, but overall Play projects are successful endeavors.  There are very few canceled projects. 
 
 - What can you conclude about the Outcomes based on Goals?
+The highest percentage of successful campaigns are those less than $5000.  For projects between $5000 and $25000, only about half of campaigns are successful.  While campagns between $35000 and $45000 were 67% successful, there is a relatively low number of projects total in those goal ranges, so that data may not be reliable.
 
 - What are some limitations of this dataset?
+The dataset we were given included only crowdfunding project information from one crowdfunding site - kickstarter.  There are several other crowdfunding sites that are geared toward creative projects, and including that data as well would increase our dataset and reliability.  In addition, this dataset only has projects dating up to 2017.  Assuming this is a 'live' project, I imagine the data would tell quite a different story, especially for plays, since the beginning of 2020.
 
 - What are some other possible tables and/or graphs that we could create?
-
+In addition to analyzing data based on month of launch and total project goal, it would be interesting to analyze projects in the US versus other countries.  It would also be interesting to see what role the length of the campaign played in the success of a campaign.  Is there an optimal time between project launch and deadline for raising the most money?  Or the highest chance of success?  
+It would also be interesting to see if the 'spotlight' feature affected how successful a campaign is.  If there is an additional cost to having your project 'spotlighted', it would be interesting to see if that is worth it.  Does it increase the odds of a successful campaign?  Does it increase the total funding percentage?
 
