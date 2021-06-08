@@ -12,7 +12,7 @@ I created a pivot table based on the entire sheet of data filtering by Parent Ca
 
 ### Analysis of Outcomes Based on Goals
 To analyze outcomes based on goals, I used the countifs command to create a count of projects based on funding goal and successful vs. failed outcomes.  This is an example of the code I used:
-`<=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")>`
+`=COUNTIFS(Kickstarter!$D:$D,"<4999",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")`
 ### Challenges and Difficulties Encountered
 
 ## Results
